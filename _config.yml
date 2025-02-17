@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Mon Portfolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Tom Forest"
 description              : "Portfolio de mes projets Unity et Unreal Engine"
 url                      : # the base hostname & protocol for your site e.g. "https://Riuck01.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -113,15 +113,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Tom Forest"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Bonjour, merci de prendre le temps de lire ma bio, pour me présenter simplement je suis un étudiant en informatique la semaine et un DJ le weekend. J'aime mon travail comme mes études ce qui me permet de faire le pont entre compétences informatiques et qualités professionnelles. Amateur de musique et de jeux vidéos depuis le plus jeune âge j'ai décidé de faire mes études au Gaming Campus afin d'avoir les connaissances nécessaires dans le milieu mais en étant conscient que l'informatique peut s'appliquer à d'autres domaines, je suis donc ouvert à toutes propositions qui correspondes à mon champ de compétences.  J'ai acquis grâce au campus des connaissances en programmations variés ce qui me permet d'aborder plein de projets différents, d'être à la page afin aussi de gérer un groupe. Durant nos projets entre 1 et 4 semaines et groupes de 2 à 8 personnes j'ai du faire face au travail collectif et à la réflexion de structure de gestion de projet afin de travailler dans de bonnes conditions entre nous issue du même domaine mais aussi dans un autre temps de comprendre d'autres branches de métiers afin de pouvoir assembler un projet final à la hauteur de grandes entreprises.  Il nous arrive aussi de collaborer avec des entreprises externes qui sollicitent des prototypes pour des projets d'envergure, susceptibles de se concrétiser dans un avenir proche. J'ai aussi des compétences dans le milieu de la sonorisation que ce soit en tant que DJ, de speaker, d'animateur. Aillant un père qui travail depuis plus de 20 ans dans ce domaine j'ai appris depuis le plus jeune les rouages du métier ce qui me permet notamment une certaine aisance orale et des compétences technique de sonorisateur. Sérieux, rigueur, honnêteté sont pour moi les choses les plus importantes dans les deux domaines que je pratique."
+  location         : "Lyon, France"
   email            :
   links:
-    - label: "Email"
+    - label: "tom.forest@outlook.fr"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "https://riuck01.github.io/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
