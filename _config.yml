@@ -310,11 +310,10 @@ compress_html:
     envs: development
 
 
-# Defaults
 collections:
   projets:
     output: true
-    permalink: /_projets/2025-02-17-gamegear.md
+    permalink: /projets/:path/
 
 defaults:
   - scope:
