@@ -311,15 +311,17 @@ compress_html:
 
 
 # Defaults
+collections:
+  projets:
+    output: true
+    permalink: /_projets/2025-02-17-gamegear.md
+
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
+      type: "projets"
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      author_profile: false
+      classes: wide
+
