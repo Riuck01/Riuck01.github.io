@@ -12,5 +12,4 @@ header:
 🎮 **GameGear**  
 Un projet réalisé avec **Unity**/**Unreal Engine**.
 
-🔗 **Lien GitHub :**  
-[Voir le projet sur GitHub](https://github.com/Riuck01/lyo-t3-gamegear-p9-03)
+🔗 **[Voir le projet sur GitHub](https://github.com/Riuck01/lyo-t3-gamegear-p9-03)**
