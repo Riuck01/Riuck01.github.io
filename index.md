@@ -23,34 +23,35 @@ author_profile: true
 </div>
 
 <style>
-/* Grille des projets */
+/* Grille des projets (3 par ligne) */
 .projets-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 20px;
   margin-top: 20px;
+  padding: 0 10px;
 }
 
 /* Carte de projet */
 .projet-card {
-  background: var(--mm-custom-background, #111);
-  border-radius: 10px;
+  background: #181818;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
   transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
 }
 
 .projet-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
 /* Image de prévisualisation */
 .projet-thumbnail img {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
-  border-bottom: 2px solid var(--mm-custom-accent, #0ff);
+  border-bottom: 3px solid var(--mm-custom-accent, #0ff);
 }
 
 /* Infos du projet */
@@ -60,13 +61,13 @@ author_profile: true
 }
 
 .projet-info h3 {
-  font-size: 1.4em;
-  color: var(--mm-custom-text, #fff);
+  font-size: 1.5em;
+  color: #fff;
   margin-bottom: 5px;
 }
 
 .projet-date {
-  font-size: 0.9em;
-  color: var(--mm-custom-muted, #bbb);
+  font-size: 1em;
+  color: #bbb;
 }
 </style>
