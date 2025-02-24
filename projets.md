@@ -1,13 +1,11 @@
 ---
-title: "Bienvenue"
-layout: home
-author_profile: true
+title: "Projets"
+layout: single
+permalink: /projets/
 ---
 
-## 🚀 Mes Projets  
+## Mes Projets 🎮  
 
 {% for projet in site.projets %}
-- **[{{ projet.title }}]({{ projet.url }})**  
-  *{{ projet.date | date: "%d/%m/%Y" }}*  
-  ![Preview]({{ projet.header.image }})
+- **[{{ projet.title }}]({{ projet.url }})** - *{{ projet.date | date: "%d/%m/%Y" }}*
 {% endfor %}
