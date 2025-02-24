@@ -23,41 +23,46 @@ author_profile: true
 </div>
 
 <style>
-/* Container principal en grille */
+/* Grille des projets */
 .projets-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
-  gap: 20px;
+  grid-template-columns: repeat(3, minmax(280px, 1fr)); /* Ajustement pour plus d’espace */
+  gap: 30px; /* Augmentation de l’espace entre les cartes */
   margin-top: 20px;
-  padding: 10px;
+  padding: 20px;
+  justify-content: center;
 }
 
-/* Ajustement pour petits écrans */
+/* Ajustement pour tablettes */
 @media (max-width: 1024px) {
   .projets-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 colonnes sur tablette */
+    grid-template-columns: repeat(2, minmax(280px, 1fr)); /* 2 colonnes */
   }
 }
 
+/* Ajustement pour mobiles */
 @media (max-width: 768px) {
   .projets-grid {
-    grid-template-columns: repeat(1, 1fr); /* 1 colonne sur mobile */
+    grid-template-columns: repeat(1, minmax(280px, 1fr)); /* 1 colonne */
   }
 }
 
-/* Carte de projet */
+/* Style des cartes */
 .projet-card {
   background: #181818;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
   transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+  max-width: 400px; /* Largeur maximale des cartes pour éviter qu’elles soient trop grandes */
+  margin: auto; /* Centre les cartes si besoin */
 }
 
 .projet-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
+
 
 /* Image */
 .projet-thumbnail img {
