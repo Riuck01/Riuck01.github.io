@@ -23,56 +23,39 @@ author_profile: true
 </div>
 
 <style>
-/* Section "Mes Projets" */
-.projets-section {
-  margin-left: 50px; /* Décale les cartes vers la droite */
+/* Augmenter la largeur de la grille des projets */
+.projets-grid {
+  width: 80%; /* Augmente la taille pour mieux occuper l'espace */
+  margin: 0 auto; /* Centre la grille */
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espace entre les cartes */
 }
 
-/* Pour écrans larges */
+/* Adapter la largeur sur grands écrans */
 @media (min-width: 1440px) {
-  .projets-section {
-    margin-left: 80px; /* Un peu plus de décalage sur très grands écrans */
+  .projets-grid {
+    width: 90%;
   }
 }
 
-/* Pour tablettes */
+/* Ajustement sur tablettes */
 @media (max-width: 1024px) {
-  .projets-section {
-    margin-left: 20px; /* Moins de décalage pour s’adapter aux écrans moyens */
+  .projets-grid {
+    width: 100%; /* Pleine largeur sur tablette */
+    gap: 15px;
   }
 }
 
 /* Pour mobiles */
 @media (max-width: 768px) {
-  .projets-section {
-    margin-left: 0; /* Pas de décalage sur petits écrans */
-  }
-}
-
-
-/* Grille des projets */
-.projets-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(280px, 1fr)); /* Ajustement pour plus d’espace */
-  gap: 30px; /* Augmentation de l’espace entre les cartes */
-  margin-top: 20px;
-  padding: 20px;
-  justify-content: center;
-}
-
-/* Ajustement pour tablettes */
-@media (max-width: 1024px) {
   .projets-grid {
-    grid-template-columns: repeat(2, minmax(280px, 1fr)); /* 2 colonnes */
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
   }
 }
 
-/* Ajustement pour mobiles */
-@media (max-width: 768px) {
-  .projets-grid {
-    grid-template-columns: repeat(1, minmax(280px, 1fr)); /* 1 colonne */
-  }
-}
 
 /* Style des cartes */
 .projet-card {
