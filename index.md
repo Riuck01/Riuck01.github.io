@@ -23,13 +23,26 @@ author_profile: true
 </div>
 
 <style>
-/* Grille des projets (3 par ligne) */
+/* Container principal en grille */
 .projets-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
   gap: 20px;
   margin-top: 20px;
-  padding: 0 10px;
+  padding: 10px;
+}
+
+/* Ajustement pour petits écrans */
+@media (max-width: 1024px) {
+  .projets-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes sur tablette */
+  }
+}
+
+@media (max-width: 768px) {
+  .projets-grid {
+    grid-template-columns: repeat(1, 1fr); /* 1 colonne sur mobile */
+  }
 }
 
 /* Carte de projet */
@@ -46,7 +59,7 @@ author_profile: true
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
-/* Image de prévisualisation */
+/* Image */
 .projet-thumbnail img {
   width: 100%;
   height: 200px;
@@ -54,7 +67,7 @@ author_profile: true
   border-bottom: 3px solid var(--mm-custom-accent, #0ff);
 }
 
-/* Infos du projet */
+/* Infos */
 .projet-info {
   padding: 15px;
   text-align: center;
