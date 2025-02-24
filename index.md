@@ -23,38 +23,56 @@ author_profile: true
 </div>
 
 <style>
-/* Augmenter la largeur de la grille des projets */
 .projets-grid {
-  width: 80%; /* Augmente la taille pour mieux occuper l'espace */
-  margin: 0 auto; /* Centre la grille */
-  display: flex;
-  justify-content: center;
-  gap: 20px; /* Espace entre les cartes */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between cards */
+  width: 85%; /* Adjust width to fit better */
+  margin: 0 auto; /* Center the grid */
+  padding: 20px 0;
 }
 
-/* Adapter la largeur sur grands écrans */
+/* Ensuring the description has enough space */
+.container { 
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px; /* Space between description and projects */
+}
+
+/* Description panel */
+.description {
+  flex: 1; /* Takes up remaining space */
+  max-width: 400px; /* Prevents it from being too wide */
+}
+
+/* Adjustments for larger screens */
 @media (min-width: 1440px) {
   .projets-grid {
     width: 90%;
   }
 }
 
-/* Ajustement sur tablettes */
+/* Adjustments for tablets */
 @media (max-width: 1024px) {
-  .projets-grid {
-    width: 100%; /* Pleine largeur sur tablette */
-    gap: 15px;
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .description {
+    max-width: 100%; /* Full width for small screens */
+    text-align: center;
   }
 }
 
-/* Pour mobiles */
+/* Mobile adjustments */
 @media (max-width: 768px) {
   .projets-grid {
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Smaller cards on mobile */
+    width: 100%;
   }
 }
+
 
 
 /* Style des cartes */
