@@ -23,6 +23,33 @@ author_profile: true
 </div>
 
 <style>
+/* Section "Mes Projets" */
+.projets-section {
+  margin-left: 50px; /* Décale les cartes vers la droite */
+}
+
+/* Pour écrans larges */
+@media (min-width: 1440px) {
+  .projets-section {
+    margin-left: 80px; /* Un peu plus de décalage sur très grands écrans */
+  }
+}
+
+/* Pour tablettes */
+@media (max-width: 1024px) {
+  .projets-section {
+    margin-left: 20px; /* Moins de décalage pour s’adapter aux écrans moyens */
+  }
+}
+
+/* Pour mobiles */
+@media (max-width: 768px) {
+  .projets-section {
+    margin-left: 0; /* Pas de décalage sur petits écrans */
+  }
+}
+
+
 /* Grille des projets */
 .projets-grid {
   display: grid;
