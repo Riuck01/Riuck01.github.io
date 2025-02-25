@@ -1,9 +1,6 @@
 ---
-title: "GameGear"
-date: 2025-02-17
+title: "Stéganographie"
 layout: single
-categories: [Unity, Unreal Engine]
-tags: [jeu, dev]
 header:
   image: /assets/images/stegano.png
   teaser: /assets/images/stegano.png
