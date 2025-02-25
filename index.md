@@ -16,7 +16,6 @@ author_profile: true
       </div>
       <div class="projet-info">
         <h3>{{ projet.title }}</h3>
-        <p class="projet-date">{{ projet.date | date: "%d/%m/%Y" }}</p>
       </div>
     </a>
   </div>
