@@ -5,11 +5,14 @@ layout: single
 categories: [Unity, Unreal Engine]
 tags: [jeu, dev]
 header:
-  image: /assets/images/gamegear-preview.jpg
-  teaser: /assets/images/gamegear-teaser.jpg
+  image: /assets/images/stegano.png
+  teaser: /assets/images/stegano.png
 ---
 
-🎮 **GameGear**  
-Un projet réalisé avec **Unity**/**Unreal Engine**.
+🎮 **Stéganographie**  
+Un projet réalisé en C++.
 
-🔗 **[Voir le projet sur GitHub](https://github.com/Riuck01/lyo-t3-gamegear-p9-03)**
+Ce projet en C++ explore l'art de la dissimulation en cachant un texte dans une image grâce à un décalage binaire subtil. Une approche ingénieuse de la stéganographie permettant d'insérer des messages invisibles à l'œil nu tout en conservant l'apparence originale de l'image.
+
+
+🔗 **projet à mettre sur un nouveau repo[Voir le projet sur GitHub](https://github.com/Riuck01/lyo-t3-gamegear-p9-03)**
