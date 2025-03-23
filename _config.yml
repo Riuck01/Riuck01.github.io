@@ -116,28 +116,25 @@ author:
   name             : "Tom Forest"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Étudiant en informatique la semaine, DJ le week-end, je combine passion et profession. Formé au Gaming Campus, j’ai acquis des compétences variées en programmation et gestion de projet, travaillant en équipe sur des prototypes concrets, parfois en collaboration avec des entreprises. Passionné de jeux vidéo et de musique, j’ai également une expérience en sonorisation et animation. Sérieux et rigoureux, je cherche des opportunités alliant technologie et créativité."
-  📌 **LinkedIn** : [Tom Forest](https://www.linkedin.com/in/tom-forest-b431012a5)
-   location         : "Lyon, France"
+  location         : "Lyon, France"
   email            :
   links:
     - label: "tom.forest@outlook.fr"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "https://riuck01.github.io/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tom-forest-b431012a5"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+
 
 
 # Site Footer
