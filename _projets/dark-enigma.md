@@ -2,8 +2,8 @@
 title: "Dark Enigma"
 layout: single
 header:
-  image: /assets/images/dark-enigma-teaser.png
-  teaser: /assets/images/dark-enigma-teaser.png
+  image: /assets/images/dark-enigma-1.png
+  teaser: /assets/images/dark-enigma-1.png
 ---
 
 🕵️ **Dark Enigma** - Initiation à Unreal Engine  
