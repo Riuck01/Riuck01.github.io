@@ -1,5 +1,6 @@
 ---
 title: "Diabruhh"
+date: 2025-02-13
 layout: single
 header:
   image: /assets/images/diabruhh-archer.png

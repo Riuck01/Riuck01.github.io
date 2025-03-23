@@ -1,5 +1,6 @@
 ---
 title: "Stéganographie"
+date: 2024-10-03
 layout: single
 header:
   image: /assets/images/stegano.png

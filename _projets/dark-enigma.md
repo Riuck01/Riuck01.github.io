@@ -1,5 +1,6 @@
 ---
 title: "Dark Enigma"
+date: 2025-01-24
 layout: single
 header:
   image: /assets/images/dark-enigma-1.png
