@@ -1,6 +1,7 @@
 ---
 title: "IA State Machine Rugby"
 date: 2024-10-30
+last_modified_at: 2024-10-30
 layout: single
 categories: [Unity, Unreal Engine]
 tags: [jeu, dev]

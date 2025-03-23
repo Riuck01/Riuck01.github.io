@@ -1,5 +1,7 @@
 ---
 title: "FPS Multijoueur"
+date: 2024-11-14
+last_modified_at: 2024-11-14
 layout: single
 header:
   image: /assets/images/fps-multiplayer-teaser.png

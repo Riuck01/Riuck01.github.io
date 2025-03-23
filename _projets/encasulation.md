@@ -1,6 +1,7 @@
 ---
 title: "Encapsulation GDI/SFML"
 date: 2024-10-17
+last_modified_at: 2024-10-17
 layout: single
 categories: [Unity, Unreal Engine]
 tags: [jeu, dev]

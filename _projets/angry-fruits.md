@@ -1,6 +1,7 @@
 ---
 title: "Angry Fruits"
 date: 2025-03-14
+last_modified_at: 2025-03-14
 layout: single
 header:
   image: /assets/images/angry-fruits-overview.png
