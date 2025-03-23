@@ -1,5 +1,5 @@
 ---
-title: "GameGear"
+title: "IA State Machine Rugby"
 date: 2025-02-17
 layout: single
 categories: [Unity, Unreal Engine]
