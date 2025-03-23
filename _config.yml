@@ -21,7 +21,7 @@ title                    : "Mon Portfolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Tom Forest"
-description              : "Portfolio de mes projets Unity et Unreal Engine"
+description              : "Portfolio de mes projets Unity et Unreal Engine !"
 url                      : # the base hostname & protocol for your site e.g. "https://Riuck01.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
