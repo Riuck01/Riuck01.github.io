@@ -7,7 +7,7 @@ author_profile: true
 ## 🚀 Mes Projets  
 
 <div class="projets-grid">
-  {% for projet in site.projets %}
+  {% for projet in site.projets reversed %}
   <div class="projet-card">
     <a href="{{ projet.url }}">
       <div class="projet-thumbnail">
@@ -26,54 +26,27 @@ author_profile: true
 /* ✅ Grid Layout */
 .projets-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+  grid-template-columns: repeat(1, 1fr); /* Par défaut : 1 colonne */
   gap: 25px;
   width: 90%;
   margin: 0 auto;
   padding: 20px 0;
 }
 
-/* ✅ Container for description + projects */
-.container { 
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 50px;
-}
-
-/* ✅ Description Panel */
-.description {
-  flex: 1;
-  max-width: 450px; 
-}
-
-/* 🖥️ Adjustments for large screens */
-@media (min-width: 1440px) {
+/* 🖥️ PC - 2 colonnes */
+@media (min-width: 1024px) {
   .projets-grid {
-    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* 📱 Adjustments for tablets */
-@media (max-width: 1024px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .description {
-    max-width: 100%;
-    text-align: center;
-  }
-}
-
-/* 📱 Adjustments for mobile */
+/* 📱 Mobile - 1 colonne */
 @media (max-width: 768px) {
   .projets-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(1, 1fr);
     width: 100%;
   }
 }
-
 
 /* 🎨 ✅ Card Style */
 .projet-card {
@@ -92,8 +65,7 @@ author_profile: true
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
 }
 
-
-/* 🎨 ✅ Thumbnail with Hover Effect */
+/* 🎨 ✅ Thumbnail */
 .projet-thumbnail {
   position: relative;
   overflow: hidden;
@@ -112,7 +84,7 @@ author_profile: true
   transform: scale(1.1) translateY(-10px);
 }
 
-/* ✅ Overlay Effect */
+/* ✅ Overlay */
 .overlay {
   position: absolute;
   top: 0;
@@ -128,8 +100,7 @@ author_profile: true
   opacity: 1;
 }
 
-
-/* 🎨 ✅ Info Text */
+/* 🎨 ✅ Info */
 .projet-info {
   padding: 15px;
   text-align: center;
