@@ -22,14 +22,12 @@ author_profile: true
   {% endfor %}
 </div>
 
-## 🔗 Me retrouver  
-📌 **LinkedIn** : [Tom Forest](https://www.linkedin.com/in/tom-forest-b431012a5)
 
 <style>
 /* ✅ Grid Layout */
 .projets-grid {
   display: grid;
-  grid-template-columns: repeat(1, 3fr); /* Par défaut : 1 colonne */
+  grid-template-columns: repeat(1, 1fr); /* Par défaut : 1 colonne */
   gap: 25px;
   width: 90%;
   margin: 0 auto;
@@ -39,7 +37,7 @@ author_profile: true
 /* 🖥️ PC - 2 colonnes */
 @media (min-width: 1024px) {
   .projets-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 3fr);
   }
 }
 
