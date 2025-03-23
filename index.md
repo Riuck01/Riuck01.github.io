@@ -37,7 +37,7 @@ author_profile: true
 /* 🖥️ PC - 2 colonnes */
 @media (min-width: 1024px) {
   .projets-grid {
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(1, 3fr);
   }
 }
 
