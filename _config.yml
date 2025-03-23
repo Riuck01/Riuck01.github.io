@@ -7,8 +7,6 @@
 
 # Theme Settings
 #
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
@@ -114,7 +112,7 @@ analytics:
 # Site Author
 author:
   name             : "Tom Forest"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Étudiant en informatique la semaine, DJ le week-end, je combine passion et profession. Formé au Gaming Campus, j’ai acquis des compétences variées en programmation et gestion de projet, travaillant en équipe sur des prototypes concrets, parfois en collaboration avec des entreprises. Passionné de jeux vidéo et de musique, j’ai également une expérience en sonorisation et animation. Sérieux et rigoureux, je cherche des opportunités alliant technologie et créativité."
   location         : "Lyon, France"
   email            :
