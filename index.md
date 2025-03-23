@@ -33,12 +33,12 @@ author_profile: true
   padding: 20px 0;
 }
 
-/* 🖥️ PC - 2 colonnes */
 @media (min-width: 1024px) {
   .projets-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* 🔥 Minimum 400px */
   }
 }
+
 
 /* 📱 Mobile - 1 colonne */
 @media (max-width: 768px) {
