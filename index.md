@@ -55,7 +55,7 @@ author_profile: true
   overflow: hidden;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
-  max-width: 400px;
+  max-width: 500px; /* 🔥 Augmenté à 500px */
   margin: auto;
   position: relative;
 }
@@ -69,7 +69,7 @@ author_profile: true
 .projet-thumbnail {
   position: relative;
   overflow: hidden;
-  height: 220px;
+  height: 250px; /* 🔥 Légèrement augmenté */
 }
 
 .projet-thumbnail img {
@@ -107,13 +107,15 @@ author_profile: true
 }
 
 .projet-info h3 {
-  font-size: 1.5em;
+  font-size: 1.6em; /* 🔥 Légèrement agrandi */
   color: #fff;
   margin-bottom: 5px;
+  text-decoration: none; /* ❌ Supprime le soulignement */
 }
 
-.projet-date {
-  font-size: 1em;
-  color: #bbb;
+/* ✅ Supprime le soulignement des liens */
+.projet-card a {
+  text-decoration: none;
+  color: inherit;
 }
 </style>
