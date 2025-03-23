@@ -14,7 +14,7 @@ Dans ce projet, nous avons expérimenté avec **Shader Graph** et du **HLSL** da
 - 🏰 **Shaders pour le Level Design** : eau réaliste, brouillard volumétrique, terrain procédural.  
 - ⚡ **Optimisation** : utilisation intelligente des textures et du LOD pour de meilleures performances.
 
-🔗 **[Voir le projet sur GitHub](https://github.com/TON-LIEN-GITHUB)**  
+🔗 **[Voir le projet sur GitHub](https://github.com/Quest-Education-Group/lyo-t3-gamegear-p5-08)**  
 
 ---
 
