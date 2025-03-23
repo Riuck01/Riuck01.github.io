@@ -29,7 +29,7 @@ author_profile: true
 /* ✅ Grid Layout */
 .projets-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr); /* Par défaut : 1 colonne */
+  grid-template-columns: repeat(1, 3fr); /* Par défaut : 1 colonne */
   gap: 25px;
   width: 90%;
   margin: 0 auto;
