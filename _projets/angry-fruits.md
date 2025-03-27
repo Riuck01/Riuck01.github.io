@@ -25,7 +25,7 @@ header:
    - 🎯 **RT** pour ajuster la puissance.  
    - 🔥 **Bouton A (Down) pour tirer**, **Y (Up) pour activer une compétence spéciale**.  
 
-🔗 **[Voir le projet sur GitHub](https://github.com/Quest-Education-Group/lyo-t3-gamegear-p11-08)**  
+🔗 **[Voir le projet sur GitHub](https://github.com/Riuck01/Angry-Fruits)**  
 
 ---
 

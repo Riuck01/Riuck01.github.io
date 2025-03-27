@@ -20,7 +20,7 @@ Ce projet a été réalisé comme **première approche d'Unreal Engine** en util
 - 👻 **Possession d’objets** → une mécanique unique permettant au joueur de **prendre le contrôle** de certains éléments du jeu.  
 - 🖥️ **UI adaptative** → interface fluide et dynamique qui s’ajuste à toutes les résolutions d’écran.  
 
-🔗 **[Voir le projet sur GitHub](https://github.com/Quest-Education-Group/lyo-t3-gamegear-p8-10)**  
+🔗 **[Voir le projet sur GitHub](https://github.com/Riuck01/Dark-Enigma)**  
 
 ---
 
